@@ -1,0 +1,24 @@
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore archives and downloaded files
+*.tar.xz
+*.tar.gz
+*.zip
+
+# Ignore compiled binaries or executables
+*.o
+*.out
+*.exe
+
+# Ignore logs and debug files
+*.log
+*.bak
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore directories created during the script execution
+reaper/
