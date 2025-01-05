@@ -68,9 +68,17 @@ Example:
 4. The script installs REAPER on the system in the `/opt` directory and integrates it into the desktop environment.
 5. After installation, the script cleans up any temporary files.
 
-## Upgrade or Re-install
+## Upgrade or Re-install REAPER
 
 To upgrade or re-install a different version of REAPER, run the script again with a differente version value.
+
+## Uninstall REAPER
+
+To uninstall, you can use the following command that is included by default in REAPER:
+
+```bash
+sudo sh /opt/REAPER/uninstall-reaper.sh
+```
 
 ## Bugs and Issues
 
