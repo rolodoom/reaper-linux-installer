@@ -23,7 +23,7 @@ This script downloads and installs the specified version of REAPER on a Linux sy
 2. Make the script executable:
 
 ```bash
-chmod +x install_reaper.sh
+chmod +x install-reaper.sh
 ```
 
 ### Syntax
@@ -31,7 +31,7 @@ chmod +x install_reaper.sh
 Run the script passing the version number of REAPER you want to install. You can provide the version with or without a period:
 
 ```bash
-./install_reaper.sh <REAPER_VERSION>
+./install-reaper.sh <REAPER_VERSION>
 ```
 
 Where `<REAPER_VERSION>` is the version number of REAPER you want to install.
@@ -39,13 +39,13 @@ Where `<REAPER_VERSION>` is the version number of REAPER you want to install.
 - **Example 1**: Installing REAPER version `7.x` (e.g., `729`):
 
 ```bash
-./install_reaper.sh 729
+./install-reaper.sh 729
 ```
 
 - **Example 2**: Installing a future REAPER version `10.x` (e.g., `1025`):
 
 ```bash
-./install_reaper.sh 1025
+./install-reaper.sh 1025
 ```
 
 ### Options:
@@ -55,7 +55,7 @@ Where `<REAPER_VERSION>` is the version number of REAPER you want to install.
 Example:
 
 ```bash
-./install_reaper.sh -h
+./install-reaper.sh -h
 ```
 
 ## Script Functionality
